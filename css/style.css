@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-nav a{
+	font-size: 20px;
+
+
+}
+.navbar-nav a:hover{
+	color: white;
+	
+}
+.carousel-caption {
+	text-align: left;
+}
+.card-body img{
+	margin-top: -70px;
+	border: 3px solid red;
+}
+.card{
+	border-radius: 0px;
+	box-shadow: 5px 5px 15px red;
+	transition: 0.3s;
+}
+.card:hover{
+	background: red;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 5px 10px green;
+	transition: 0.7s;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  color: #514B64;
+  min-height: 100vh;
+}
